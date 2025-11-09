@@ -4,6 +4,8 @@ public class StringUtil {
 
     public static String reverseLetters(String str) {
 
+        if (str == null) return str;
+
         int start = 0;
         int end = str.length() - 1;
         char[] output = str.toCharArray();
